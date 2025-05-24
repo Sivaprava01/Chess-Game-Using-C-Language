@@ -40,18 +40,21 @@ Welcome to the SDL Chess Project, a fully functional chess game built in C using
 
 Clone the repository:
 ```
-git clone [YOUR_REPOSITORY_URL]
+git clone [[YOUR_REPOSITORY_URL]](https://github.com/Sivaprava01/Chess-Game-Using-C-Language.git)
 cd sdl-chess-project
 ```
 
-Build the project:
-```
-make
-```
 
 Run the game:
+Open terminal and type following command to create and executable file 
 ```
-./chess
+ gcc main.c -I./inc -L./lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image  -o mygame.exe
+
+```
+Then run the following command to run the game
+```
+./mygame.exe
+
 ```
 
 Usage
